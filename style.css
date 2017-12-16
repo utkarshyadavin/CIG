@@ -1,0 +1,152 @@
+body {
+	background-color: rgb(240,240,220);
+	font-family: 'Ubuntu';
+}
+
+.header {
+	width: 100%;
+	height: 200px;
+	background-color: #000;
+	margin-bottom: 25px;
+}
+
+.navigation-bar {
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+
+.navigation-bar ul {
+	list-style: none;
+	padding: 0;
+	background-color: #fff;
+}
+
+.navigation-bar li {
+	float: left;
+	text-align: center;
+	height: 50px;
+}
+
+.navigation {
+	font-size: 0;
+}
+
+.navigation-bar span {
+	display: table-cell;
+	font-size: 20px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.list-item:hover {
+	border-bottom: 4px solid #000;
+	cursor: pointer;
+}
+
+.navigation-bar a {
+	text-decoration: none;
+	color: #00f;
+}
+
+.navigation-bar a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.navigation-bar ul li:first-child {
+	display: none;
+}
+
+.imageSlider {
+	margin-bottom: 50px;
+}
+
+.events {
+	border: 1px solid rgb(150,150,150);
+	color: #fff;
+	background-color: rgb(150,150,150);
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+
+.news {
+	border:1px solid rgb(150,150,150);
+	color:#fff;
+	background-color: rgb(150,150,150);
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+
+.events span:hover {
+	background-color: rgb(120,120,120);
+}
+
+.news span:hover {
+	background-color: rgb(120,120,120);
+}
+
+#news a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#a4 {
+	margin-top : 50px;
+	margin-bottom: 50px;
+}
+
+.head {
+	border: 1px solid #000;
+	text-align: center;
+	color: #fff;
+	background-color: rgb(50,50,250);
+	cursor: pointer;
+}
+
+#a4 .row div:nth-child(even) .head {
+	background-color: #555;
+}
+
+#a5 {
+	margin-bottom: 100px;
+}
+
+#a5 a {
+	text-decoration: none;
+	color: #000;
+}
+
+#a5 span:hover {
+	background-color: #ddd;
+}
+
+#a5 h5:hover {
+	background-color: #ddd;
+}
+
+#footer {
+	background-color: #000;
+	width: 100%;
+	height: 200px;
+}
+
+@media screen and (max-width:768px) {
+
+	.navigation-bar li {
+		width: 100%;
+	}
+
+	.navigation-bar ul li:first-child {
+		display: table-cell;
+		text-align: right;
+		padding-right: 20px;
+	}
+
+	.navigation-bar ul li:not(:first-child) {
+		display: none;
+		text-align: left;
+		border-bottom: 1px solid rgb(200,200,200);
+		padding-left: 20px;
+	}
+
+}
