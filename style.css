@@ -1,6 +1,5 @@
 body {
 	background-color: rgb(240,240,220);
-	font-family: 'Ubuntu';
 }
 
 .header {
@@ -61,17 +60,9 @@ body {
 	margin-bottom: 50px;
 }
 
-.events {
+.events, .news {
 	border: 1px solid rgb(150,150,150);
 	color: #fff;
-	background-color: rgb(150,150,150);
-	padding: 0 10px;
-	margin-bottom: 20px;
-}
-
-.news {
-	border:1px solid rgb(150,150,150);
-	color:#fff;
 	background-color: rgb(150,150,150);
 	padding: 0 10px;
 	margin-bottom: 20px;
